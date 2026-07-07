@@ -18,7 +18,8 @@ public class WeaponController : MonoBehaviour
 
     [Header("Animation")]
     [SerializeField] Animator animator;
-    [SerializeField] string fireTrigger = "Fire";
+    //[SerializeField] string fireTrigger = "Fire";
+    [SerializeField] string firBool = "FireBool";
     [SerializeField] string reloadTrigger = "Reload";
     [SerializeField] string weaponIndexParam = "WeaponIndex";
 
@@ -129,11 +130,19 @@ public class WeaponController : MonoBehaviour
         if (CurrentWeapon.cameraShakeIntensity > 0f)
             CameraShake.Instance?.Shake(CurrentWeapon.cameraShakeIntensity);
 
-        if (animator != null)
-            animator.SetTrigger(fireTrigger);
+        StartCoroutine(ShootingCoro());
 
         OnAmmoChanged?.Invoke(currentAmmo, CurrentWeapon.magazineSize);
         OnFired?.Invoke();
+    }
+
+    IEnumerator ShootingCoro()
+    {
+        if (animator != null)
+            animator.SetBool("FireBool", true);
+        yield return new WaitForSeconds(0.1f);
+        if (animator != null)
+            animator.SetBool("FireBool", false);
     }
 
     void HandleReload()

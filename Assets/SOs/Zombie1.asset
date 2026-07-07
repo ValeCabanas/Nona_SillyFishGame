@@ -16,14 +16,14 @@ MonoBehaviour:
   maxHealth: 50
   moveSpeed: 3.5
   damage: 10
-  detectionRange: 20
+  detectionRange: 10
   attackRange: 2
   attackCooldown: 1.5
   stoppingDistance: 1.5
   attackWindup: 0.3
-  lootDropChance: 0.2
+  lootDropChance: 0.3
   scoreValue: 10
-  explodesOnDeath: 0
+  explodesOnDeath: 1
   explosionRadius: 3
   explosionDamage: 25
   deathEffectPrefab: {fileID: 0}
