@@ -5195,11 +5195,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 211209480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1227321682 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2890218454601615162, guid: 1365bafb99fab83438688920b478b7c0, type: 3}
-  m_PrefabInstance: {fileID: 8339498169212045375}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1248558877
 Mesh:
   m_ObjectHideFlags: 0
@@ -8916,10 +8911,6 @@ PrefabInstance:
       propertyPath: OnAmmoChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 401344216}
-    - target: {fileID: 3078148180369182587, guid: 1365bafb99fab83438688920b478b7c0, type: 3}
-      propertyPath: _animator
-      value: 
-      objectReference: {fileID: 1227321682}
     - target: {fileID: 3078148180369182587, guid: 1365bafb99fab83438688920b478b7c0, type: 3}
       propertyPath: OnHealthChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
