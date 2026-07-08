@@ -124,7 +124,7 @@ CapsuleCollider:
   m_Radius: 0.26
   m_Height: 1.89
   m_Direction: 1
-  m_Center: {x: 0, y: 0.94, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &6866112339566887777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
   input: {fileID: 4888540017470776980}
   playerController: {fileID: 213025927177470084}
   animator: {fileID: 2890218454601615162}
-  fireTrigger: Fire
+  firBool: FireBool
   reloadTrigger: Reload
   weaponIndexParam: WeaponIndex
   OnWeaponChanged:
