@@ -126,6 +126,7 @@ MonoBehaviour:
   maxHealth: 50
   destroyOnDeath: 0
   destroyDelay: 0
+  _animator: {fileID: 5485904637883531239}
   invulnerabilityDuration: 0
   OnHealthChanged:
     m_PersistentCalls:
