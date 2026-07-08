@@ -67,5 +67,7 @@ ignore.conf
 plastic.branchexplorer
 
 # Paid Asset Packs (import from Asset Store individually)
-Assets/PolygonApocalypse/
-Assets/PolygonApocalypse.meta
+Assets/ImportedAssets/PolygonApocalypse/
+Assets/ImportedAssets/PolygonApocalypse.meta
+Assets/ImportedAssets/FishAlive/
+Assets/ImportedAssets/FishAlive.meta
