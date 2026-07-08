@@ -43,12 +43,17 @@ public class HUDManager : MonoBehaviour
 
     public void UpdateHealth(float current, float max)
     {
+        Debug.Log("HOli2");
+
         float percent = current / max;
 
         if (healthBarFill != null)
         {
+            Debug.Log("HOli3");
+            Debug.Log(percent);
             healthBarFill.fillAmount = percent;
             healthBarFill.color = Color.Lerp(healthLowColor, healthFullColor, percent);
+            Debug.Log(healthBarFill.fillAmount);
         }
 
         if (healthText != null)

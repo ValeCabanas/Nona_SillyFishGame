@@ -199,7 +199,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e8b22b2cfe7e6734c9a81ae8b63d80f1, type: 2}
   startingWeaponIndex: 0
   muzzlePoint: {fileID: 2374785500532437546}
-  bulletPool: {fileID: 0}
+  bulletPool: {fileID: 3067789379697512586, guid: 6ce027cc79f67c24680dcb7b37506877, type: 3}
   input: {fileID: 4888540017470776980}
   playerController: {fileID: 213025927177470084}
   animator: {fileID: 2890218454601615162}

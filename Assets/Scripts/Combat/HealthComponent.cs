@@ -52,6 +52,8 @@ public class HealthComponent : MonoBehaviour, IDamageable
     {
         if (isDead || isInvulnerable) return;
 
+        Debug.Log("HOli");
+
         currentHealth = Mathf.Max(0f, currentHealth - amount);
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
         OnDamaged?.Invoke(hitPoint, hitDirection);
