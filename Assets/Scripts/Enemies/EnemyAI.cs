@@ -19,6 +19,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] string attackTrigger = "Attack";
     [SerializeField] string deathTrigger = "Death";
     [SerializeField] string hitTrigger = "Hit";
+    
 
     [Header("Detection")]
     [SerializeField] LayerMask playerLayer;
@@ -121,6 +122,7 @@ public class EnemyAI : MonoBehaviour
 
         agent.isStopped = false;
         agent.SetDestination(target.position);
+        
 
         float dist = Vector3.Distance(transform.position, target.position);
         if (dist <= data.attackRange)

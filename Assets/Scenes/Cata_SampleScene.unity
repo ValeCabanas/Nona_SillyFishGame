@@ -8502,11 +8502,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!95 &2114053943 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 8744457445469402930, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-  m_PrefabInstance: {fileID: 5707161684344020850}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &2131338302
 Mesh:
   m_ObjectHideFlags: 0
@@ -8733,7 +8728,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
---- !u!1001 &5707161684344020850
+--- !u!1001 &5196365068461927630
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8741,103 +8736,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.44
+      value: 5.235518
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.26
+      value: 4.2527933
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.198478
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.98010534
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -157.104
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2172989567473544903, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 1940495764206654610, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3717061042204755869, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: m_Constraints
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7883604380740536299, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: data
-      value: 
-      objectReference: {fileID: 11400000, guid: 6b2f2376d1fa97448aab9bef17b04ca3, type: 2}
-    - target: {fileID: 8506206321144564614, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+    - target: {fileID: 2615262414240826688, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
       propertyPath: m_Name
-      value: mr Pipipopo Pants Jr
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506206321144564614, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654039645538905312, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654039645538905312, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: _animator
-      value: 
-      objectReference: {fileID: 2114053943}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: maxHealth
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: destroyDelay
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: destroyOnDeath
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 919132149155446097, guid: c40bee5d490112943b24176847f97dda, type: 3}
-    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
-      propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+      value: Mr Pipipopo Pants The 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 26b174e19fc74824abe18c68aaf3b59a, type: 3}
 --- !u!1001 &6060414178157552429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8972,17 +8919,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7356768213379148413, guid: 8d2defcfeee90604f8cf2b659966a483, type: 3}
+      propertyPath: m_Size.y
+      value: 15.126698
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356768213379148413, guid: 8d2defcfeee90604f8cf2b659966a483, type: 3}
+      propertyPath: m_Center.y
+      value: 3.373247
+      objectReference: {fileID: 0}
     - target: {fileID: 8079753085774843772, guid: 8d2defcfeee90604f8cf2b659966a483, type: 3}
       propertyPath: m_Name
       value: wateri
       objectReference: {fileID: 0}
     - target: {fileID: 8893162526280881606, guid: 8d2defcfeee90604f8cf2b659966a483, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.4954
+      value: 5.59
       objectReference: {fileID: 0}
     - target: {fileID: 8893162526280881606, guid: 8d2defcfeee90604f8cf2b659966a483, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.375
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 8893162526280881606, guid: 8d2defcfeee90604f8cf2b659966a483, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9036,7 +8991,7 @@ SceneRoots:
   - {fileID: 1149990703}
   - {fileID: 3126635600856111043}
   - {fileID: 141629410}
-  - {fileID: 5707161684344020850}
+  - {fileID: 5196365068461927630}
   - {fileID: 6060414178157552429}
   - {fileID: 1453689914}
   - {fileID: 8993498539070313678}
