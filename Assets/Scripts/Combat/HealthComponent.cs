@@ -7,6 +7,7 @@ public class HealthComponent : MonoBehaviour, IDamageable
     [SerializeField] float maxHealth = 100f;
     [SerializeField] bool destroyOnDeath;
     [SerializeField] float destroyDelay;
+    [SerializeField] Animator _animator;
 
     [Header("Invulnerability")]
     [SerializeField] float invulnerabilityDuration;
@@ -84,6 +85,7 @@ public class HealthComponent : MonoBehaviour, IDamageable
 
     void Die()
     {
+        _animator.SetTrigger("Death");
         isDead = true;
         OnDeath?.Invoke();
 

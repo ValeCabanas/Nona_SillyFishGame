@@ -184,6 +184,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3287532403007741055, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_text
+      value: Wave 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_Color.a
+      value: 0.09019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5989549041947497506, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5195,6 +5227,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 211209480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1227321682 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2890218454601615162, guid: 1365bafb99fab83438688920b478b7c0, type: 3}
+  m_PrefabInstance: {fileID: 8339498169212045375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1248558877
 Mesh:
   m_ObjectHideFlags: 0
@@ -8675,10 +8712,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1904001573899038678, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4566408729387781356, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.01
@@ -8689,7 +8722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4566408729387781356, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.37
+      value: -3.14
       objectReference: {fileID: 0}
     - target: {fileID: 4566408729387781356, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8722,30 +8755,6 @@ PrefabInstance:
     - target: {fileID: 6155451688898793606, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
       propertyPath: m_Name
       value: WaveSystem
-      objectReference: {fileID: 0}
-    - target: {fileID: 6171768178265451470, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Size.x
-      value: 8.192879
-      objectReference: {fileID: 0}
-    - target: {fileID: 6171768178265451470, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Size.y
-      value: 1.6996899
-      objectReference: {fileID: 0}
-    - target: {fileID: 6171768178265451470, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Size.z
-      value: 6.405896
-      objectReference: {fileID: 0}
-    - target: {fileID: 6171768178265451470, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Center.x
-      value: 3.5964403
-      objectReference: {fileID: 0}
-    - target: {fileID: 6171768178265451470, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Center.y
-      value: 0.34984493
-      objectReference: {fileID: 0}
-    - target: {fileID: 6171768178265451470, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
-      propertyPath: m_Center.z
-      value: -6.891641
       objectReference: {fileID: 0}
     - target: {fileID: 9101316398869352003, guid: 833cf9bd0790fe34093a035a6a42cba4, type: 3}
       propertyPath: OnWaveStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8930,6 +8939,10 @@ PrefabInstance:
       propertyPath: OnAmmoChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 401344216}
+    - target: {fileID: 3078148180369182587, guid: 1365bafb99fab83438688920b478b7c0, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1227321682}
     - target: {fileID: 3078148180369182587, guid: 1365bafb99fab83438688920b478b7c0, type: 3}
       propertyPath: OnHealthChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
