@@ -186,7 +186,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3287532403007741055, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
       propertyPath: m_text
-      value: Wave 1
+      value: Wave 0/5
       objectReference: {fileID: 0}
     - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
       propertyPath: m_Sprite
