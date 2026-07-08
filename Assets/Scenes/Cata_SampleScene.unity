@@ -184,38 +184,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3287532403007741055, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_text
-      value: Wave 0/5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_Color.a
-      value: 0.09019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5610453357348212255, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
-      propertyPath: m_RaycastTarget
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5989549041947497506, guid: 3f3f0485dd1342142a6bbce31a7d387d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -8539,6 +8507,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!95 &2114053943 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8744457445469402930, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+  m_PrefabInstance: {fileID: 5707161684344020850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &2131338302
 Mesh:
   m_ObjectHideFlags: 0
@@ -8838,6 +8811,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 2114053943}
+    - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
       propertyPath: destroyDelay
       value: 0.5
       objectReference: {fileID: 0}
@@ -8847,7 +8824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9158394358386982117, guid: 0599663788028334780711d3b5d0b2a2, type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target

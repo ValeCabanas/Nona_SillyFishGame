@@ -227,8 +227,9 @@ public class EnemyAI : MonoBehaviour
 
     void UpdateAnimation()
     {
-        //if (animator == null) return;
-        //animator.SetFloat(speedParam, agent.velocity.magnitude / Mathf.Max(data.moveSpeed, 0.01f));
+        //this shit
+        if (animator == null) return;
+        animator.SetFloat(speedParam, agent.velocity.magnitude / Mathf.Max(data.moveSpeed, 0.01f));
     }
 
     void UpdateIdleSound()
