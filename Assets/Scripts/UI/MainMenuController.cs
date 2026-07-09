@@ -26,7 +26,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] Button creditsBackButton;
 
     [Header("Scene")]
-    [SerializeField] string gameSceneName = "Game";
+    [SerializeField] string gameSceneName = "Fih_Level";
     [SerializeField] int gameSceneIndex = 1;
     [SerializeField] bool useSceneName;
 
