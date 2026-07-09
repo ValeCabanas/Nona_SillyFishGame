@@ -13,7 +13,6 @@ public class WaveTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("HOLA");
             _waveSpawner.gameObject.SetActive(true);
         }
     }

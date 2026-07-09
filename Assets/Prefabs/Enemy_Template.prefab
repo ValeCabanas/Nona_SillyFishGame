@@ -140,6 +140,7 @@ MonoBehaviour:
   OnHealed:
     m_PersistentCalls:
       m_Calls: []
+  _hurtClip: {fileID: 8300000, guid: 8b6850729245ad84fb6241dcb7760f55, type: 3}
 --- !u!114 &4028748896116243877
 MonoBehaviour:
   m_ObjectHideFlags: 0

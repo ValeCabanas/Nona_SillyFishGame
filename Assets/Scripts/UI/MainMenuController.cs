@@ -30,6 +30,8 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] int gameSceneIndex = 1;
     [SerializeField] bool useSceneName;
 
+    [SerializeField] private AudioClip _bubbleSound; 
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -47,6 +49,11 @@ public class MainMenuController : MonoBehaviour
         ShowMain();
 
         AudioManager.Instance?.PlayMenuMusic();
+    }
+
+    public void PlayBubbleSound()
+    {
+        AudioManager.Instance?.PlaySFX(_bubbleSound);
     }
 
     void OnPlay()

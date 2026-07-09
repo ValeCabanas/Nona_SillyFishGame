@@ -87,12 +87,15 @@ public class GameManager : MonoBehaviour
     public void Pause()
     {
         if (currentState != GameState.Playing) return;
+        Time.timeScale = 0f;
+        Debug.Log(Time.timeScale);
         SetState(GameState.Paused);
     }
 
     public void Resume()
     {
         if (currentState != GameState.Paused) return;
+        Time.timeScale = 1f;
         SetState(GameState.Playing);
     }
 

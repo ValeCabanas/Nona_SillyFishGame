@@ -18,6 +18,8 @@ public class HealthComponent : MonoBehaviour, IDamageable
     public UnityEvent OnDeath;
     public UnityEvent OnHealed;
 
+    [SerializeField] private AudioClip _hurtClip; // HERE AUDIO CLIP VALE
+
     float currentHealth;
     bool isDead;
     bool isInvulnerable;
@@ -53,8 +55,6 @@ public class HealthComponent : MonoBehaviour, IDamageable
     {
         if (isDead || isInvulnerable) return;
 
-        Debug.Log("HOli");
-
         currentHealth = Mathf.Max(0f, currentHealth - amount);
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
         OnDamaged?.Invoke(hitPoint, hitDirection);
@@ -64,6 +64,8 @@ public class HealthComponent : MonoBehaviour, IDamageable
             isInvulnerable = true;
             invulnerabilityTimer = invulnerabilityDuration;
         }
+
+        AudioManager.Instance.PlaySFX(_hurtClip); // HERE AUDIO CLIP VALE
 
         if (currentHealth <= 0f)
             Die();

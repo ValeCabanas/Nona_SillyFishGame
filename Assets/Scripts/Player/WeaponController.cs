@@ -58,6 +58,7 @@ public class WeaponController : MonoBehaviour
         HandleFiring();
         HandleReload();
         HandleWeaponSwitch();
+
     }
 
     void HandleFiring()
